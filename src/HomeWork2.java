@@ -65,6 +65,8 @@ public class HomeWork2 {
             cookName = "[ " + collecName + "으로 저장된 " + cookName + " ]";
             System.out.println(cookName);
 
+            // set은 index가 없기 때문에 get() 메소드를 제공하지 않는다.
+            // 따라서 Iterator를 사용해야한다.
             Iterator iter = set.iterator();
             for (int i = 0; i < set.size(); i++) {
                 int num = i + 1;
