@@ -1,4 +1,4 @@
-// 문자 -> 숫자
+package homework;// 문자 -> 숫자
 
 import java.util.Scanner;
 
